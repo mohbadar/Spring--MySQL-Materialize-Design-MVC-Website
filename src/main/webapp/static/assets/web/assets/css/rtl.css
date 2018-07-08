@@ -1,0 +1,41 @@
+	html, body{
+		direction: rtl !important;
+	}
+
+	ul.nav li:hover{
+		border-top:1.5px solid #DDD; 
+	}
+
+	#nav-top{
+		float:right;
+	}
+	#nav-top li{
+		 float:right;
+		 margin: 0 auto;
+	 }
+
+	#fixTopNav{
+			float:right;
+	}
+	#fixTopNav li{
+	 float:right;
+
+	}
+	.sub-menu{
+		right:100% !important;
+		top:-10%;
+		border-radius: 0px;
+		direction: rtl;
+		float: right;
+	}
+	.sub-menu{
+	position: relative;
+	}
+	.dropdown-menu{
+		position: relative;
+		float: right;
+		box-shadow: 0px 0px 0px #fff;
+		border: 0px;
+		margin-left: 10px;
+		border-left: 1px solid rgb(41, 51, 82);
+	}
